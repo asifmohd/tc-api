@@ -127,7 +127,7 @@ var config = {
 
     submissionLink: 'https://software.topcoder.com/review/actions/DownloadContestSubmission.do?method=downloadContestSubmission&uid=',
     finalFixLink: 'https://software.topcoder.com/review/actions/DownloadFinalFix.do?method=downloadFinalFix&uid=',
-    designSubmissionLink: 'http://studio.topcoder.com/?module=DownloadSubmission&sbmid=',
+    designSubmissionLink: 'https://api.topcoder.com/v2/design/download/',
 
     //The name of the folder where to store the submission files.
     //Please make sure the directory already exists

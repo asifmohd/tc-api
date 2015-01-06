@@ -2371,8 +2371,8 @@ var getChallengeResults = function (api, connection, dbConnectionMap, isStudio, 
                 //Submission Links
                 if (isStudio) {
                     if (challengeRestrictions.show_submissions) {
-                        resEl.submissionDownloadLink = api.config.tcConfig.designSubmissionLink + el.submission_id;
-                        resEl.previewDownloadLink = api.config.tcConfig.designSubmissionLink + el.submission_id + "&sbt=small";
+                        resEl.submissionDownloadLink = api.config.tcConfig.designSubmissionLink + el.submission_id + "?submissionType=original";
+                        resEl.previewDownloadLink = api.config.tcConfig.designSubmissionLink + el.submission_id + "?submissionType=preview&submissionImageTypeId=29";
                     }
                 } else {
                     resEl.submissionDownloadLink = api.config.tcConfig.submissionLink + el.upload_id;
